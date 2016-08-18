@@ -2,6 +2,9 @@ package easy;
 
 import java.util.Scanner;
 
+/**
+ * Find the lexicographically smallest string and the lexicographically largest string among the strings.
+ */
 public class OrderingOfStrings {
 
 	public static void main(String[] args) {
