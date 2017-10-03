@@ -16,8 +16,8 @@ public class TheNthFibonacci {
         fib[1] = 1;
         
         for (int i = 2; i < 1001; i++) {
-        	fib[i] = fib[i-1] + fib[i-2];
-        	fib[i] = fib[i] - (fib[i]/10*10);
+	        	fib[i] = fib[i-1] + fib[i-2];
+	        	fib[i] = fib[i] - (fib[i]/10*10);
         }
         
         while (t-- > 0) {
